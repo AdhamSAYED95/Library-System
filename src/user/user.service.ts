@@ -1,7 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import { User } from './Interfaces/user,interface';
 import * as path from 'path';
-import { readingFromFile, writingToFile } from 'src/file/fileHandling.helper';
+import {
+  readingFromFile,
+  writingToFile,
+} from 'src/common/file/fileHandling.helper';
 
 @Injectable()
 export class UserService {

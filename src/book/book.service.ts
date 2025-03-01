@@ -6,7 +6,10 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import * as path from 'path';
-import { readingFromFile, writingToFile } from 'src/file/fileHandling.helper';
+import {
+  readingFromFile,
+  writingToFile,
+} from 'src/common/file/fileHandling.helper';
 @Injectable()
 export class BookService {
   private readonly filePath = path.join(

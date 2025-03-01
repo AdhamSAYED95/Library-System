@@ -10,7 +10,7 @@ import {
 import { AuthService } from './auth.service';
 import { signUpDto } from './Dto/signInDto';
 
-import { Public } from 'src/decorators/public.decorator';
+import { Public } from 'src/common/decorators/public.decorator';
 
 @Controller('auth')
 export class AuthController {

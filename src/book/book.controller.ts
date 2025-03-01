@@ -1,6 +1,6 @@
 import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common';
-import { Public } from 'src/decorators/public.decorator';
-import { Role, Roles } from 'src/decorators/roles.decorator';
+import { Public } from 'src/common/decorators/public.decorator';
+import { Role, Roles } from 'src/common/decorators/roles.decorator';
 import { BookService } from './book.service';
 import { BookUpDto } from './Dto/bookDto';
 
