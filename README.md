@@ -33,3 +33,20 @@ ecommerce-project/
     ├── 📜 app.module.ts # Root Module
     
 ```
+
+## 🛑 Simulated Database (Using JSON)
+This project **does not use a real database** like MySQL or MongoDB. Instead, it uses the **fs module** to read and write data in JSON files.
+
+- **Users Data:** Stored in `database/users.json`
+- **Books Data:** Stored in `database/books.json`
+
+Example of `users.json`:
+```json
+{
+  "userId123": {
+    "username": "JohnDoe",
+    "password": "hashedPassword",
+    "email": "johndoe@example.com",
+    "role": "Librarian"
+  }
+}
