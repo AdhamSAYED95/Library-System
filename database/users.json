@@ -1,0 +1,37 @@
+{
+  "efe02032-930e-4baa-b793-740989e263c1": {
+    "username": "ahmed",
+    "password": "ido",
+    "email": "ahmed@gmail.com",
+    "borrowedBooks": "2",
+    "role": "student"
+  },
+  "235c77b6-91be-4a39-a926-523ce3e69927": {
+    "username": "adham",
+    "password": "ido2",
+    "email": "adham@gmail.com",
+    "borrowedBooks": "2",
+    "role": "librarian"
+  },
+  "063693a9-8dcf-4ffc-b35a-03f2ff06f4cd": {
+    "username": "adham",
+    "password": "ido2",
+    "email": "adham@gmail.com",
+    "borrowedBooks": "2",
+    "role": "librarian"
+  },
+  "ab0957c3-f87d-439e-ad81-7d7d3e6a7491": {
+    "username": "adham",
+    "password": "ido2",
+    "email": "adham@gmail.com",
+    "borrowedBooks": "2",
+    "role": "student"
+  },
+  "8c815c31-d6e3-436e-80aa-274d05612bb3": {
+    "username": "yousef",
+    "password": "ido3",
+    "email": "yousef@gmail.com",
+    "borrowedBooks": "5",
+    "role": "student"
+  }
+}
