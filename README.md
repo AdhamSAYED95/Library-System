@@ -21,5 +21,15 @@ Additionally, the application **implements authentication using JWT** for secure
 - **fs (File System) Module** - Data Storage in JSON Files
 
 ## 🗂️ Project Structure
-
-📂 src ┣ 📂 auth # Authentication Module (JWT) ┣ 📂 books # Book Management Module ┣ 📂 common # Shared Interceptors & Filters ┣ 📂 users # User Management ┣ 📂 database # JSON Files for Data Storage ┣ 📜 main.ts # Application Entry Point ┗ 📜 app.module.ts # Root Module
+```perl
+ecommerce-project/
+├── 📂database/ #  Databse Storage Folder
+├── 📂src/ # Main dirctoray folder
+    ├── auth # Authentication Module (JWT) 
+    ├── books # Book Management Module
+    ├── common  # Shared Interceptors & Filters
+    ├──  users # User Management
+    ├── 📜 main.ts # Application Entry Point
+    ├── 📜 app.module.ts # Root Module
+    
+```
