@@ -93,8 +93,32 @@ Example: Authorization: Bearer <your_token>
 }
 ```
 
+# 🔧 Installation & Running the Project
 
+- 1.Clone the repository:
 
+```bash
+git clone https://github.com/your-username/library-management.git
+cd library-management
+```
+
+- 2.Install dependencies:
+
+```bash
+npm install
+```
+
+- 3.Run the project:
+
+```bash
+npm run start:dev
+```
+
+- 4.Open the API in Postman or your browser:
+
+```bash
+http://localhost:3000/
+```
 
 
 
