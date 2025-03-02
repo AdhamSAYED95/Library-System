@@ -41,6 +41,7 @@ This project **does not use a real database** like MySQL or MongoDB. Instead, it
 - **Books Data:** Stored in `database/books.json`
 
 Example of `users.json`:
+
 ```json
 {
   "userId123": {
@@ -50,3 +51,53 @@ Example of `users.json`:
     "role": "Librarian"
   }
 }
+```
+
+## 🔑 Authentication (JWT)
+
+# Authentication is handled using JSON Web Tokens (JWT).
+Users must log in to receive a JWT token, which is required for accessing protected routes.
+
+
+# 🟢 Authentication
+
+- POST /auth/signup → Register a new user
+- POST	/auth/login	Login and receive a JWT token
+- GET	/auth/profile	Get logged-in user's profile
+
+# 📚 Book Management Routes
+
+- POST	/book/add	Add a new book (Librarian Only)
+- GET	/book/viewAllBooks	View all books
+- GET	/book/chooseBook/:bookId	Get a specific book
+- DELETE	/book/remove/:bookId	Remove a book (Librarian Only)
+
+📌 Note: Protected routes require a Bearer Token in the Authorization header.
+Example: Authorization: Bearer <your_token>
+
+
+# 🛡️ Exception Handling & Interceptors
+
+- Global Exception Filter ensures consistent error responses.
+- Response Interceptor formats API responses in a structured manner.
+
+```json
+{
+  "statusCode": 200,
+  "message": "Book found",
+  "data": {
+    "bookTitle": "Oliver Twist",
+    "description": "something about street kids",
+    "bookYear": "1995"
+  }
+}
+```
+
+
+
+
+
+
+
+
+
